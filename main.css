@@ -1,0 +1,49 @@
+
+body {
+    background-color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.key {
+    border: 1px solid rgb(105, 38, 38);
+    background-color: darkgrey;
+    box-shadow: 1px 1px 3px rgba(209, 11, 224, 0.1);
+    display: inline-flex;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    padding: 50px;
+    position: relative;
+    margin: 10px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.key1 {
+    color: black;
+    font-size: 150px;
+    position: unset;
+    border: rgb(65, 16, 229);
+    top: 10px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.key small {
+    columns: #555;
+    font-size: 14px;
+    box-sizing: content-box;
+    border: 3px solid rgb(76, 75, 76);
+    position: absolute;
+    top: -50px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
